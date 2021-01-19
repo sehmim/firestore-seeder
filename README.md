@@ -15,13 +15,13 @@ Use this to seed your data programmatically into your firebase collection.
     appId: ""
   };
 
-  export { firebaseConfig }
+  module.exports = firebaseConfig 
   ```
 - Similarly, make data.js where write your data
     ```
     const users = []
     
-    export { users }
+    module.exports = users 
     ```
 - Lastly, modify COLLECTION_NAME in seed.js file to be your collection name
 
