@@ -23,4 +23,4 @@ Use this to seed your data programmatically into your firebase collection.
     
     export { users }
     ```
-- Lastly, modify COLLECTION_NAME to be your collection name 
+- Lastly, modify COLLECTION_NAME in seed.js file to be your collection name 
